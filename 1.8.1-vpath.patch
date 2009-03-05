@@ -1,0 +1,8 @@
+--- origsrc/mathgl-1.8.1/mgl/Makefile.am	2009-03-04 07:22:03.000000000 -0600
++++ src/mathgl-1.8.1/mgl/Makefile.am	2009-03-05 11:17:21.405116200 -0600
+@@ -1,4 +1,4 @@
+-INCLUDES        = -I$(top_builddir)/include -I$(top_builddir)
++INCLUDES        = -I$(top_srcdir)/include -I$(top_srcdir)
+ 
+ lib_LTLIBRARIES = libmgl.la
+ 

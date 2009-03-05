@@ -1,0 +1,10 @@
+inherit wxwidgets qt4
+
+DESCRIPTION="OpenGL library for scientific graphics"
+HOMEPAGE="http://mathgl.sourceforge.net/"
+SRC_URI="mirror://sourceforge/mathgl/${P}.tgz"
+PATCH_URI="1.8.1-vpath.patch"
+
+DIFF_EXCLUDES="libltdl .svn"
+
+CYGCONF_ARGS="--enable-all --disable-static"
